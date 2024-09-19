@@ -1,9 +1,68 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 236, 236);
 }
-h1 {
+.container{
+    margin: 120px auto;
+    max-width: 600px;
+}
+header{
+    margin-bottom: 30px;
+}
+h1{
     text-align: center;
+    font-weight: 800px;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #272044;
+}
+form {
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    display: flex;
+    margin-bottom: 30px;
+
+}
+a{
+    color: navy;
+}
+.enter-info{
+    padding: 16px;
+    border: 1px solid rgba(39, 33, 66, 8.5);
+    width: 88%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: #272044;
+}
+.submit-button{
+    margin-left: 10px;
+    background:navy ;
+    color: white;
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 14px 24px;
+}
+.submit-button:hover{
+    color: navy;
+    background-color: white;
+    border: 1px solid navy;
+    cursor: pointer;
+}
+.poem{
+    font-size: 14px;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid navy;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 footer{
     text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
 }
