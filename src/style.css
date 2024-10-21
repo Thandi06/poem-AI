@@ -109,6 +109,7 @@ footer{
         margin-top: 10px;
         display: block;
         text-align: center;
+        align-self: center;
 
 
     }
