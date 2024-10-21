@@ -94,3 +94,45 @@ footer{
         visibility: hidden;
     }
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        margin: 40px auto;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+
+    form {
+        flex-direction: column;
+    }
+}
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .hint {
+        font-size: 11px;
+    }
+
+    .poem {
+        font-size: 13px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .container {
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+}
